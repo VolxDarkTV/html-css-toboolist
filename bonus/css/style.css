@@ -53,6 +53,15 @@ body{
     background-color: rgb(37, 118, 211);
     color: white;
 }
+/* button hover effects */
+.button.main:hover{
+    color: black;
+    background-color: white;
+}
+.button:hover{
+    color: black;
+    background-color: rgba(17, 184, 72, 0.774);
+}
 /* task scheme */
 .task-box{
     padding-bottom: 5%;
