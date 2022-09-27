@@ -48,6 +48,7 @@ body{
     border: none;
     border: solid 1.5px rgb(128, 128, 128, 0.5);
     color: rgb(128, 128, 128, 0.5);
+    cursor: pointer;
 }
 .button.main{
     background-color: rgb(37, 118, 211);
@@ -86,19 +87,50 @@ body{
 /* color tag task */
 .task-tag.editorial{
     background-color: rgb(72, 144, 253);
+    cursor: pointer;
 }
 .task-tag.goals{
     background-color: rgb(143, 1, 143);
+    cursor: pointer;
 }
 .task-tag.recruiting{
     background-color: rgb(28, 117, 28);
+    cursor: pointer;
 }
 .task-tag.mobile{
     background-color: rgb(233, 152, 3);
+    cursor: pointer;
 }
 .task-tag.website{
     background-color: violet;
+    cursor: pointer;
 }
 .task-tag.sales{
     background-color: rgb(143, 199, 54);
+    cursor: pointer;
+}
+/* color tag task hover effect */
+.task-tag.editorial:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.task-tag.goals:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.task-tag.recruiting:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.task-tag.mobile:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.task-tag.website:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+.task-tag.sales:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
 }
