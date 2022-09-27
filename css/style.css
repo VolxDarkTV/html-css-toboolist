@@ -60,6 +60,7 @@ body{
     margin: 2% 5% 0.5%;
 }
 .task-value-line{
+    list-style-type: none;
     margin: 1% 6% 0%;
     font-size: 18px;
 }
