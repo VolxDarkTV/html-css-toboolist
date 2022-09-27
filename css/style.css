@@ -17,6 +17,7 @@ body{
 }
 /* logo & text-logo rules */
 #logo{
+    padding-left: 1%;
     height: 80px;
     line-height: 80px;
     vertical-align: middle;
