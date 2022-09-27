@@ -26,3 +26,28 @@ body{
     font-size: 60px;
     vertical-align: middle;
 }
+/* main rules */
+.container{
+    margin: 2% 15% 1%;
+    height: 100px;
+    border-radius: 5px;
+    
+    /* debug */
+    background-color: brown;
+}
+/* section in main */
+.container-buttons{
+    border-bottom: solid 1px rgb(128, 128, 128, 0.4);
+    padding: 1% 5% 1%;
+}
+/* buttons */
+.button{
+    border-color: rgb(128, 128, 128, 0.7);
+    border-radius: 5px;
+    padding: 5px;   
+    border: none;
+}
+.button.main{
+    background-color: rgb(37, 118, 211);
+    color: white;
+}
