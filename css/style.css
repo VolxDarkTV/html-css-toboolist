@@ -29,11 +29,11 @@ body{
 /* main rules */
 .container{
     margin: 2% 15% 1%;
-    height: 100px;
+    height: auto;
     border-radius: 5px;
     
     /* debug */
-    background-color: brown;
+    background-color: white;
 }
 /* section in main */
 .container-buttons{
@@ -41,13 +41,53 @@ body{
     padding: 1% 5% 1%;
 }
 /* buttons */
-.button{
-    border-color: rgb(128, 128, 128, 0.7);
+.button{ 
     border-radius: 5px;
-    padding: 5px;   
+    padding: 6px;   
     border: none;
+    border: solid 1.5px rgb(128, 128, 128, 0.5);
+    color: rgb(128, 128, 128, 0.5);
 }
 .button.main{
     background-color: rgb(37, 118, 211);
     color: white;
+}
+/* task scheme */
+.task-box{
+    padding-bottom: 5%;
+}
+.task-main-value-line{
+    margin: 2% 5% 0.5%;
+}
+.task-value-line{
+    margin: 1% 6% 0%;
+    font-size: 18px;
+}
+
+.task-tag{
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px 5px;
+    border: solid 1px;
+    border-radius: 15px;
+    color: white;
+}
+/* color tag task */
+.task-tag.editorial{
+    background-color: rgb(72, 144, 253);
+}
+.task-tag.goals{
+    background-color: rgb(143, 1, 143);
+}
+.task-tag.recruiting{
+    background-color: rgb(28, 117, 28);
+}
+.task-tag.mobile{
+    background-color: rgb(233, 152, 3);
+}
+.task-tag.website{
+    background-color: violet;
+}
+.task-tag.sales{
+    background-color: rgb(143, 199, 54);
 }
